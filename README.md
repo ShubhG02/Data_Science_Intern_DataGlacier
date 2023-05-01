@@ -20,5 +20,5 @@ Presentation on last week Project i.e G2M insight for Cab Investment firm
 
 Deployment on Flask
 This week we built a machine learning model and deployed it on FLASK 
-we will focus on both: building a machine learning model, then create an API for the model, using Flask, the Python micro-framework for building web applications. This API allows us to utilize predictive capabilities through HTTP requests.![Uploading image.png…]()
+we will focus on both: building a machine learning model, then create an API for the model, using Flask, the Python micro-framework for building web applications. This API allows us to utilize predictive capabilities through HTTP requests.
 
