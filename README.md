@@ -29,3 +29,9 @@ we will focus on both: building a machine learning model, then create an API for
 Cloud and API Deployment
 
 In this week, we created the machine learning model using the Flask Framework which predict the salary by providing information like experience , test score and interview score and Deployed it on an open source cloud using Heroku which based on API as well as web app.
+
+******* WEEK 6 *******
+
+File Ingestion and schema
+
+In this week, we took large size of data and first applied different methods of reading like Dask, Modlin, ray, and Pandas to check the computational efficiency. After that, we apply basic validation on data columns and then we validate number of columns and column name of ingested file with YAML. In the end we write the file (txt) in gz format and get the summary of the file.
