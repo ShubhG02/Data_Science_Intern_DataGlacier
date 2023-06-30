@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hate Speech Detection</title>
+  <script>
+    function predictHateSpeech() {
+      // Get the input text
+      var userInput = document.getElementById("userInput").value;
+
+      // Perform the hate speech prediction (replace this with your actual prediction logic)
+      var prediction = "Non-hateful";
+
+      // Display the prediction result
+      document.getElementById("predictionResult").innerHTML = "Prediction: " + prediction;
+    }
+  </script>
+</head>
+<body>
+  <h1>Hate Speech Detection</h1>
+  <label for="userInput">Enter text:</label>
+  <input type="text" id="userInput">
+  <button onclick="predictHateSpeech()">Predict</button>
+  <p id="predictionResult"></p>
+</body>
+</html>
